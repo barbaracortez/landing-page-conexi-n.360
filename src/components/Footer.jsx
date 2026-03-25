@@ -1,10 +1,13 @@
 import React from 'react';
+import './styles/Footer.css';
+
 
 function Footer() {
   return (
-    <footer id="footer">
-      <p>&copy; 2026 Conexión 360°. Todos los derechos reservados.</p>
-      <p>Contacto: info@conexion360.com</p>
+    <footer className="footer">
+      <h3>Conexión 360°</h3>
+      <p>Transformando negocios con tecnología.</p>
+      <p className="copy">© 2026 Todos los derechos reservados</p>
     </footer>
   );
 }

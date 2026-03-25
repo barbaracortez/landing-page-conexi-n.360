@@ -1,0 +1,30 @@
+.features {
+  padding: 80px 20px;
+  background: #f4f4f4;
+  text-align: center;
+}
+
+.features h2 {
+  margin-bottom: 40px;
+  color: #001f3f;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  width: 250px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}

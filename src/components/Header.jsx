@@ -1,6 +1,6 @@
 import React from "react";
 import './styles/Header.css';
-import logo from '../assets/conexión-360.png';
+import logo from '../assets/logo-360.png';
 
 const Header = () => {
     return (
